@@ -1,0 +1,108 @@
+html {
+    font-family: "fb_jabutinski", "Segoe print";
+    background-image: url("../img/img5.jpg");
+    background-size: cover;
+}
+
+body {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.play_table {
+    display: grid;
+    grid-template-rows: 30vw 30vw 30vw;
+}
+
+button {
+    height: 33vh;
+    width: 33vw;
+    background-size: 33vw 33vh;
+    background-repeat: no-repeat;
+}
+
+.play {
+    background-image: url("../img/gif/Capture.PNG");
+    background-size: 33vw 33vh;
+    background-repeat: no-repeat;
+    height: 33vh;
+    width: 33vw;
+
+}
+
+.img1 {
+    background-image: url("../img/gif/2.gif");
+}
+
+.img2 {
+    background-image: url("../img/gif/3.gif");
+}
+
+.img3 {
+    background-image: url("../img/gif/4.gif");
+}
+
+.img4 {
+    background-image: url("../img/gif/5.gif");
+}
+
+.img5 {
+    background-image: url("../img/gif/6.gif");
+}
+
+.img6 {
+    background-image: url("../img/gif/9.gif");
+}
+
+.img7 {
+    background-image: url("../img/gif/8.gif");
+}
+
+.img8 {
+    background-image: url("../img/gif/12.gif");
+}
+.outOfPlay2{
+    float: left;
+    font-size: 2rem;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    font-family: "fb_jabutinski", "Segoe print";
+    border-radius: 20px;
+    height: 25vh;
+    width: 8vw;
+    margin-left: 1vw;
+}
+@media screen and (max-width:1400px){
+    body {
+        font-size: 1.5rem;
+    }
+    button {
+        height: 30vh;
+        width: 50vw;
+        background-size: 50vw 30vh;
+    }
+    .play {
+        background-size: 33vw 33vh;
+        height: 30vh;
+        width: 50vw;
+    }
+    .outOfPlay2{
+        font-size: 1.5rem;
+        width: 10vw;
+    }
+    .img3 {
+       display: none;
+    }
+    .img5 {
+        display: none;
+     }
+     .img8 {
+        display: none;
+     }
+     
+.play {
+    background-size: 45vw 30vh;
+    height: 30vh;
+    width: 50vw;
+}
+}

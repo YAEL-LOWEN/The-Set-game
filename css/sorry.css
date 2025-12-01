@@ -1,0 +1,13 @@
+html{
+    font-family: "fb_jabutinski", "Segoe print";
+    background-image: url("../img/img2.jpg");
+    background-size: cover;
+}
+body{
+    color: rgb(252, 0, 67);
+    background-color: black;
+   font-size: 4rem;
+   text-align: center;
+   margin-top: 20%;
+
+}

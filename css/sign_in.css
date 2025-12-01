@@ -1,0 +1,91 @@
+html{
+    font-family: "fb_jabutinski", "Segoe print";
+    background-image: url("../img/img5.jpg");
+    background-size: cover;
+}
+
+.enter_hide {
+    display: none;
+}
+@keyframes enter_hide {
+    25% {
+        transform: scale(0.3)
+    }
+
+    50% {
+        transform: scale(2)
+    }
+
+}
+h3{
+    margin: 2vh;
+    color: black;
+    font-size: 2rem;
+}
+form {
+    margin-top: 10vh;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    animation-name: enter_hide;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    width: 50vw;
+    height: 80vh;
+    margin-left: 25vw;
+    background-color: rgb(0, 177, 252);
+    color:blueviolet;
+    font-size: 1.5rem;
+}
+#sign_in_button{
+    text-align: center;
+    font-size: 2rem;
+    width: 30vw;
+    margin-left: 10vw;
+    background-color:  rgb(0, 0, 0);
+    color:rgb(255, 255, 255) ;
+    font-family: "fb_jabutinski", "Segoe print";
+}
+#sign_in_title{
+    font-size: 3rem;
+    color: rgb(255, 5, 134);
+    margin: 0px;
+}
+input{
+    text-align: center;
+    font-size: 2rem;
+    background-color:  rgb(247, 247, 247);
+    color:rgb(0, 177, 252) ;
+    font-family: "fb_jabutinski", "Segoe print";
+}
+#logo {
+    margin-top: -6vh;
+    margin-right: 1vw;
+    float: right;
+    border: 10px;
+    border-radius: 60px;
+    color: rgb(89, 255, 0);
+    text-align: center;
+    background-color: rgb(255, 77, 0);
+    width: 13vw;
+    height: 22vh;
+    font-size: 2rem;
+}
+@media screen and (max-width:1400px){
+    #logo {
+        width: 20vw;
+        height:16vh;
+        font-size: 1.5rem;
+    }  
+    #sign_in_title{
+        font-size:  2rem;
+    }
+    #sign_in_button{
+        font-size:  1.5rem;
+    }
+    h3{
+        font-size: 1.5rem;
+    }
+}
