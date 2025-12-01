@@ -10,7 +10,7 @@ const members = JSON.parse(localStorage.getItem("members")) || []
 sign_in_button.addEventListener("click", (e) => {
     e.preventDefault();
     if (typeof(sign_in_id.value)===String)
-        alert("חובה להזדהות עם ת.ז. מספרית")
+        alert(" .............חובה להזדהות עם ת.ז. מספרית")
     else if (sign_in_password.value.length != 4)
         alert("הסיסמא צריכה להיות בת 4 תויים")
     else if (sign_in_name.value === '')
